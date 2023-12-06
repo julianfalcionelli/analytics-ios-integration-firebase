@@ -1,4 +1,4 @@
-platform :ios, '11.0'
+platform :ios, '14.0'
 
 use_frameworks!
 
@@ -15,23 +15,3 @@ target 'Segment-Firebase_Example' do
     pod 'Expecta'
   end
 end
-
-
-## With use_frameworks!
-# Use only 'Segment-Firebase/StaticLibWorkaround'
-
-#use_frameworks!
-#
-#target 'Segment-Firebase_Example' do
-#    pod 'Segment-Firebase/StaticLibWorkaround', :path => '../'
-#    pod 'Firebase'
-#
-#end
-#
-#target 'Segment-Firebase_Tests' do
-#    inherit! :search_paths
-#
-#    pod 'Specta'
-#    pod 'Expecta'
-#    pod 'OCMockito'
-#end
